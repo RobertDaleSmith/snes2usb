@@ -45,6 +45,7 @@ SNESpad::SNESpad(int strobe, int clock, int data)
     pinMode(strobe, OUTPUT);
     pinMode(clock,  OUTPUT);
     pinMode(data, INPUT);
+    digitalWrite(data, HIGH);
   }
 
 uint32_t SNESpad::buttons(int m_speed)
