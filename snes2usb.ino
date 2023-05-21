@@ -60,8 +60,8 @@ void loop() {
   else if (btns & SNES_RIGHT) Joystick.setXAxis(1);
   else Joystick.setXAxis(0);
 
-  if (btns & SNES_DOWN) Joystick.setYAxis(-1);
-  else if (btns & SNES_UP) Joystick.setYAxis(1);
+  if (btns & SNES_UP) Joystick.setYAxis(-1);
+  else if (btns & SNES_DOWN) Joystick.setYAxis(1);
   else Joystick.setYAxis(0);
 
   bool isMouse = ((btns & SNES_DEVICE_ID) >> 12) == SNES_MOUSE_ID;
