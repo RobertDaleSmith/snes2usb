@@ -10,16 +10,23 @@ Firmwares
 
 # GP2040-CE Controller
 	A custom GP2040-CE build for the SNES-2-USB.
+- u2f: [SNES2USB_GP2040-CE_0.7.1_KB2040.uf2](https://github.com/RobertDaleSmith/snes2usb/releases/download/v0.1/SNES2USB_GP2040-CE_0.7.1_KB2040.uf2 "download")
 - src: https://github.com/RobertDaleSmith/GP2040-CE/tree/SNES2USB
-- u2f: [SNES2USB_GP2040-CE_0.7.1_KB2040.uf2](SNES2USB_GP2040-CE_0.7.1_KB2040.uf2 "download")
 
 # USB HID Mouse
 	A dedicated SNES mouse to USB HID mouse firmware for SNES-2-USB.
+- u2f: [SNES2USB_HIDMOUSE_0.1_KB2040.uf2](https://github.com/RobertDaleSmith/snes2usb/releases/download/v0.1/SNES2USB_HIDMOUSE_0.1_KB2040.uf2 "download")
 - src: https://github.com/RobertDaleSmith/SNESpad/blob/main/examples/mouse
-- u2f: [SNES2USB_HIDMOUSE_0.1_KB2040.uf2](SNES2USB_HIDMOUSE_0.1_KB2040.uf2 "download")
+
+## Firmware Update Instructions
+
+1. Disconnected adapter from the console and all connected USB devices.
+2. While holding the boot(+) button, connect the USB-C port to a computer.
+3. A virual drive called RPI-RP2 will appear, drag-n-drop the UF2 update file onto the drive.
+4. The virtual drive will automatically unmount when the update is completed. 🚀
 
 Hardware
 -----
-Arduino Pro Micro -> https://www.amazon.com/ATmega32U4-Micro-USB-Development-Compatible-ATmega328/dp/B07PHK8SMR
+Adafruit KB2040 -> https://www.adafruit.com/product/5302
 
 SNES Arduino Shield -> https://www.flux.ai/robertdalesmith/snes-controller-arduino-nano-shield
