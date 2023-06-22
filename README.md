@@ -11,12 +11,12 @@ Firmwares
 # GP2040-CE Controller
 	A custom GP2040-CE build for the SNES-2-USB.
 - src: https://github.com/RobertDaleSmith/GP2040-CE/tree/SNES2USB
-- u2f: [SNES2USB_GP2040-CE_0.7.1_KB2040.uf2](SNES2USB_GP2040-CE_0.7.1_KB2040.uf2)
+- u2f: [SNES2USB_GP2040-CE_0.7.1_KB2040.uf2](SNES2USB_GP2040-CE_0.7.1_KB2040.uf2 "download")
 
 # USB HID Mouse
 	A dedicated SNES mouse to USB HID mouse firmware for SNES-2-USB.
 - src: https://github.com/RobertDaleSmith/SNESpad/blob/main/examples/mouse
-- u2f: [SNES2USB_HIDMOUSE_0.1_KB2040.uf2](SNES2USB_HIDMOUSE_0.1_KB2040.uf2)
+- u2f: [SNES2USB_HIDMOUSE_0.1_KB2040.uf2](SNES2USB_HIDMOUSE_0.1_KB2040.uf2 "download")
 
 Hardware
 -----
